@@ -5,3 +5,4 @@ function Nav_Bar_buttons() {
 /*The following methods are used to get elements from an html
 document and create elements, text, and links for the navbar*/
 let side = document.createDocumentFragment();
+let all_part = document.getElementsByTagName("section");
