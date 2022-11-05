@@ -7,3 +7,4 @@ document and create elements, text, and links for the navbar*/
 let side = document.createDocumentFragment();
 let all_part = document.getElementsByTagName("section");
 let ul_nav = document.getElementById("navbar__list");
+for (let section of all_part) {
