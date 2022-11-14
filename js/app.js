@@ -9,3 +9,4 @@ let all_part = document.getElementsByTagName("section");
 let ul_nav = document.getElementById("navbar__list");
 for (let section of all_part) {
   let relate = document.createElement("li");
+  let for_connect = document.createElement("a");
