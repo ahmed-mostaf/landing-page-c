@@ -11,3 +11,4 @@ for (let section of all_part) {
   let relate = document.createElement("li");
   let for_connect = document.createElement("a");
   let department = section.getAttribute("id");
+  let part_address = section.getAttribute("data-nav");
