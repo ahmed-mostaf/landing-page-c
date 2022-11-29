@@ -12,3 +12,4 @@ for (let section of all_part) {
   let for_connect = document.createElement("a");
   let department = section.getAttribute("id");
   let part_address = section.getAttribute("data-nav");
+  for_connect.href = `#${department}`;
