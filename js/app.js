@@ -13,3 +13,4 @@ for (let section of all_part) {
   let department = section.getAttribute("id");
   let part_address = section.getAttribute("data-nav");
   for_connect.href = `#${department}`;
+  for_connect.classList = "menu__link";
