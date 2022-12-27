@@ -14,3 +14,4 @@ for (let section of all_part) {
   let part_address = section.getAttribute("data-nav");
   for_connect.href = `#${department}`;
   for_connect.classList = "menu__link";
+  for_connect.innerText = part_address;
