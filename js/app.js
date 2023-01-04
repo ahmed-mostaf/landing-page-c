@@ -16,3 +16,4 @@ for (let section of all_part) {
   for_connect.classList = "menu__link";
   for_connect.innerText = part_address;
   /* Creates a smooth scrolling behavior when
+  navigating to sections */
