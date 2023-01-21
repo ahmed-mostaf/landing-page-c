@@ -17,3 +17,4 @@ for (let section of all_part) {
   for_connect.innerText = part_address;
   /* Creates a smooth scrolling behavior when
   navigating to sections */
+  for_connect.addEventListener("click", (to) => {
