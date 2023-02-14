@@ -18,3 +18,4 @@ for (let section of all_part) {
   /* Creates a smooth scrolling behavior when
   navigating to sections */
   for_connect.addEventListener("click", (to) => {
+    to.preventDefault();
