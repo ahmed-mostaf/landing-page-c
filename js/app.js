@@ -19,3 +19,4 @@ for (let section of all_part) {
   navigating to sections */
   for_connect.addEventListener("click", (to) => {
     to.preventDefault();
+    s
